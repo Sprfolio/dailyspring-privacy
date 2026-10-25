@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="light">
   <title>DailySpring Privacy Policy</title>
+  <meta name="description" content="DailySpring privacy policy: how your schedule data is stored, reminders work, and how to contact SPRFOLIO.">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 108 108'%3E%3Crect width='108' height='108' rx='24' fill='%23172B4D'/%3E%3Cpath fill='%23F5F0E7' d='M52 64C46 49 38 44 30 46C31 56 38 64 52 64Z'/%3E%3Cpath fill='white' d='M56 54C57 40 67 33 78 35C78 46 69 54 56 57Z'/%3E%3Cpath fill='none' stroke='%23F5F0E7' stroke-width='4' stroke-linecap='round' d='M54 78C54 67 54 57 55 48M31 78H77'/%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
@@ -16,10 +18,35 @@
     h1 { margin-top: 0; }
     p { line-height: 1.6; }
     a { color: #172b4d; }
+    .brand { display: flex; align-items: center; gap: 16px; margin-bottom: 24px; }
+    .brand-icon { width: 72px; height: 72px; flex-shrink: 0; }
+    .brand-name { margin: 0; color: #172b4d; font-size: 22px; font-weight: 700; }
+    .brand-credit { margin: 2px 0 0; color: #5c6470; font-size: 13px; }
+    footer { margin-top: 32px; padding-top: 20px; border-top: 1px solid #e5e0d7; color: #5c6470; font-size: 13px; }
+    footer p { margin: 6px 0; overflow-wrap: anywhere; }
+    a:focus-visible { outline: 2px solid #172b4d; outline-offset: 4px; }
+    @media (max-width: 480px) {
+      body { padding: 16px 12px; }
+      main { padding: 24px 20px; }
+      h1 { font-size: 26px; }
+      h2 { font-size: 20px; }
+    }
   </style>
 </head>
 <body>
   <main>
+    <header class="brand" aria-label="DailySpring by SPRFOLIO">
+      <svg class="brand-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 108 108" aria-hidden="true" focusable="false">
+        <rect width="108" height="108" rx="24" fill="#172B4D" />
+        <path fill="#F5F0E7" d="M52,64 C46,49 38,44 30,46 C31,56 38,64 52,64 Z" />
+        <path fill="#FFFFFF" d="M56,54 C57,40 67,33 78,35 C78,46 69,54 56,57 Z" />
+        <path fill="none" stroke="#F5F0E7" stroke-linecap="round" stroke-width="4" d="M54,78 C54,67 54,57 55,48 M31,78 L77,78" />
+      </svg>
+      <div>
+        <p class="brand-name">DailySpring</p>
+        <p class="brand-credit">by SPRFOLIO</p>
+      </div>
+    </header>
     <h1>DailySpring Privacy Policy</h1>
     <p><strong>Effective date:</strong> October 25, 2026</p>
 
@@ -46,6 +73,11 @@
 
     <h2>Contact</h2>
     <p>For privacy questions, contact SPRFOLIO at <a href="mailto:thesprfolio@gmail.com">thesprfolio@gmail.com</a>.</p>
+    <footer aria-label="Publisher and contact information">
+      <p>&copy; 2026 SPRFOLIO. All rights reserved.</p>
+      <p>DailySpring &middot; Privacy Policy</p>
+      <p>Contact: <a href="mailto:thesprfolio@gmail.com">thesprfolio@gmail.com</a></p>
+    </footer>
   </main>
 </body>
 </html>
